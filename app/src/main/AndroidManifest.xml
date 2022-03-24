@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoGrupalNo1">
         <activity
+            android:name=".informacion"
+            android:exported="false" />
+        <activity
             android:name=".principal"
             android:exported="false" />
         <activity
