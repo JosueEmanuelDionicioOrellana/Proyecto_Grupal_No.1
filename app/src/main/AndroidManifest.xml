@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.ProyectoGrupalNo1">
         <activity
+            android:name=".principal"
+            android:exported="false" />
+        <activity
             android:name=".inicio"
             android:exported="true">
             <intent-filter>
